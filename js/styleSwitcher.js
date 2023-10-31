@@ -28,3 +28,5 @@ for (let i = 0; i < totalBodySkin; i++) {
 document.querySelector('.toggle-style-switcher').addEventListener('click', () => {
     document.querySelector('.style-switcher').classList.toggle('open');
 });
+
+document.body.className = 'dark'; // Set the default mode to Dark
